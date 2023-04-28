@@ -9,4 +9,3 @@ export const Container = styled.div`
 // justifyContent: 'center',
 // alignItems: 'center',
 // fontSize: 40,
-// color: '#010101'
