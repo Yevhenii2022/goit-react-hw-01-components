@@ -1,15 +1,9 @@
-/* @import-normalize; */
+import { createGlobalStyle } from 'styled-components';
+import 'modern-normalize';
 
-/* :root { */
-/* --bg-card-color: #d7d4e4; */
-/* --bg-border-color: #1b0b79; */
-/* --bg-body-color: #ddf3e2; */
-/* --bg-box-color: #acafbb; */
-/* --timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
-/* } */
-/* 
-body {
-  margin: 0;
+export const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -17,13 +11,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #ddf3e2;
   scroll-behavior: smooth;
-}
-
+  }
+  
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-} */
-/* 
+}
+
 p,
 h1,
 h2,
@@ -50,7 +44,7 @@ button {
 img,
 picture,
 svg {
-  display: block;
+  /* display: block; */
   max-width: 100%;
   height: auto;
 }
@@ -58,4 +52,5 @@ svg {
 a {
   text-decoration: none;
   color: inherit;
-} */
+}
+`;

@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from '@emotion/react';
 import { App } from 'components/App/App';
-import './index.css';
+// import './index.css';
 
 const theme = {
   colors: {
-    cardColor: '#d7d4e4',
-    borderColor: '#1b0b79',
+    whiteColor: '#fff',
+    // cardColor: '#d7d4e4',
+    // borderColor: '#1b0b79',
     bodyColor: '#ddf3e2',
     boxColor: '#acafbb',
   },
