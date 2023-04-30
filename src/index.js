@@ -7,8 +7,6 @@ import { App } from 'components/App/App';
 const theme = {
   colors: {
     whiteColor: '#fff',
-    // cardColor: '#d7d4e4',
-    // borderColor: '#1b0b79',
     bodyColor: '#ddf3e2',
     boxColor: '#acafbb',
   },
